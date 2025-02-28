@@ -68,9 +68,9 @@ Crie uma tabela no MySql com o seguinte comando no terminal:
 
 No arquivo application.properties (src -> main -> resources -> application.properties) adicione os comandos:
 
-spring.datasource.url=jdbc:mysql://localhost/vollmed_api
-spring.datasource.username=SEU-NOME-DE-USUARIO-MYSQL
-spring.datasource.password=SUA-SENHA-MYSQL
+* spring.datasource.url=jdbc:mysql://localhost/vollmed_api
+* spring.datasource.username=SEU-NOME-DE-USUARIO-MYSQL
+* spring.datasource.password=SUA-SENHA-MYSQL
 
 Status conhecidos:
 
