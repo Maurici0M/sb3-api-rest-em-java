@@ -57,6 +57,21 @@ Para Cadastro de pacientes:
 * https://trello.com/b/O0lGCsKb/api-voll-med
 * https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
 
+
+Aula 3 - Spring Data JPA
+
+Para o correto funcionamento da aplicação, é necessário fazer o seguinte:
+
+Crie uma tabela no MySql com o seguinte comando no terminal:
+
+* create database vollmed_api
+
+No arquivo application.properties (src -> main -> resources -> application.properties) adicione os comandos:
+
+spring.datasource.url=jdbc:mysql://localhost/vollmed_api
+spring.datasource.username=SEU-NOME-DE-USUARIO-MYSQL
+spring.datasource.password=SUA-SENHA-MYSQL
+
 Status conhecidos:
 
 * 404 - Acontecerá se o endereço da requisição for inválido
